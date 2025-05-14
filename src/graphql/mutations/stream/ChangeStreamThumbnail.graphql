@@ -1,0 +1,3 @@
+mutation ChangeStreamThumbnail($thumbnail: Upload!) {
+	changeThumbnail(thumbnail: $thumbnail)
+}

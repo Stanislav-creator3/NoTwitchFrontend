@@ -1,0 +1,9 @@
+query findSponsorsByChannel($channelId: String!) {
+	findSponsorsByChannel(channelId: $channelId) {
+		user {
+			id
+			username
+			avatar
+		}
+	}
+}
